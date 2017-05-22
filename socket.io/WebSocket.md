@@ -17,9 +17,9 @@ WEBSOCKET之前的解决方法大概这么几种：
 ### WebSocket技术及协议
 
 WebSocket技术的优点有：
-1）通过第一次HTTP Request建立了连接之后，后续的数据交换都不用再重新发送HTTP Request，节省了带宽资源； 
-2) WebSocket的连接是双向通信的连接，在同一个TCP连接上，既可以发送，也可以接收; 
-3)具有多路复用的功能(multiplexing)，也即几个不同的URI可以复用同一个WebSocket连接。这些特点非常类似TCP连接，但是因为它借用了HTTP协议的一些概念，所以被称为了WebSocket。
+1. 通过第一次HTTP Request建立了连接之后，后续的数据交换都不用再重新发送HTTP Request，节省了带宽资源；  
+2. WebSocket的连接是双向通信的连接，在同一个TCP连接上，既可以发送，也可以接收;  
+3. 具有多路复用的功能(multiplexing)，也即几个不同的URI可以复用同一个WebSocket连接。这些特点非常类似TCP连接，但是因为它借用了HTTP协议的一些概念，所以被称为了WebSocket。 
 
 ### 产考资料
 
